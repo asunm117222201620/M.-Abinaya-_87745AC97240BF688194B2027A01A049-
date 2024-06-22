@@ -1,0 +1,31 @@
+import random
+
+options = ["rock", "paper", "scissors"]
+
+user => input ("Choose Rock, paper, or scissors:")
+
+computer random.choice (options)
+
+print("you choice", user)
+
+print("computer choice", computer)
+
+if (user = "rock" and computer == "paper"): print("computer is a winner")
+
+Fes
+
+Π
+
+elif (user == "paper" and computer == "rock"): print("user is a winner")
+
+elif (user == "scissors" and computer == "rock"): print("computer is a winner")
+
+elif (user = "rock" and computer == "scissors"):
+
+print ("user is a winner") Telif (user == "scissors" and computer == "paper"): print("user is a winner")
+
+Melif (user "paper" and computer print("computer is a winner") else: "scissors"):
+
+user == computer
+
+print("Draw the match!")
