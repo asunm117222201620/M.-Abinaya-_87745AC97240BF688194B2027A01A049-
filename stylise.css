@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url('62394d753859943e6a1a36443ef78795.gif');
+    background-size: cover;
+    object-fit: contain;
+  
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+nav {
+    display: none;
+}
+
+nav.active{
+  display: block;
+  
+}
+
+
+
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.skill-card, .project-card {
+    background: #222;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover, .project-card:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 2rem;
+    color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1c1c1c;
+    margin-top: 20px;
+}
+
+line h2 {
+  text-align: centre;
+}
+
+/* Style for the navigation bar */
+nav {
+  background-color: #333; /* Dark background */
+  padding: 10px;
+}
+
+/* Style for the list */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display items in a row */
+  justify-content: space-around; /* Evenly space out the items */
+}
+
+/* Style for list items */
+nav ul li {
+  display: inline-block;
+}
+
+/* Style for the links */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  background-color: #575757; /* Hover effect */
+}
+
+.container a{
+  text-decoration: none;
+  color: inherit;
+}
